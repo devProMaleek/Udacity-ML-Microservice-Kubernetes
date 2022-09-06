@@ -12,7 +12,7 @@ dockerpath="devpromaleek07/abdulmalik07"
 # Run the Docker Hub container with kubernetes
 kubectl run abdulmalik07 \
     --image=$dockerpath \
-    --port=80 --labels app=devpromaleek07
+    --port=80 --labels app=abdulmalik07
 
 
 # Step 3:
@@ -21,6 +21,6 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward devpromaleek07 8000:80
+kubectl port-forward abdulmalik07 8000:80
 
 
